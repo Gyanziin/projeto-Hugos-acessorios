@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugos Acessorios</title>
+
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">
+                <i class="bi bi-earbuds me-1"></i>
+                <em>Hugos Acessórios</em>
+                <i class="bi bi-headphones ms-1"></i>
+            </h1>
+            <button data-bs-toggle="collapse" data-bs-target="#menu-navegacao" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end pt-2" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-a-loja">
+                            <i class="me-1 bi bi-house-door-fill"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#promocoes">
+                            <i class="bi bi-cart4"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-android2"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="me-1 bi bi-chat-left-text"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div data-bs-ride="carousel" class="carousel slide" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img hugo acessorios/slide/fone-slide.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img hugo acessorios/slide/carregador-slide.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img hugo acessorios/slide/mochilas-slide.webp" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img class="d-block w-100 h-100 rounded" src="./img hugo acessorios/sobre a loja.jpg" alt="">
+                        </div>
+                        <div class="col-md-5 mt-md-0">
+                            <h2 class="section-title">Sobre <span>a Loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem animi rem! Dolore delectus recusandae tempore laudantium nisi porro dolorem eaque dolorum quia, incidunt vero dicta pariatur placeat alias. Modi!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates dolorem, quae impedit distinctio obcaecati, odit aliquam vero omnis enim illum temporibus aperiam, maiores voluptatum ipsam illo sit. Repellendus, tenetur totam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Promoções <span>da Semana</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img class="d-block mb-2 rounded" src="./img hugo acessorios/promocoes/peom-jbl.webp" alt="">
+                        <h3 class="fs-4 section-title text-center">
+                            <i class="bi bi-speaker me-1"></i>
+                            Caixa de som JBL
+                        </h3>
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque laudantium saepe quod. Adipisci accusamus placeat, iure inventore temporibus magnam numquam ad aut fuga autem in ex eveniet nobis recusandae.
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block mb-2 rounded" src="./img hugo acessorios/promocoes/prom-carregador.jpg" alt="">
+                        <h3 class="fs-4 section-title text-center">
+                            <i class="bi bi-lightning-charge-fill me-1"></i>
+                            Carregador Aranha
+                        </h3>
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque laudantium saepe quod. Adipisci accusamus placeat, iure inventore temporibus magnam numquam ad aut fuga autem in ex eveniet nobis recusandae.
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block mb-2 rounded" src="./img hugo acessorios/promocoes/prom-fone.webp" alt="">
+                        <h3 class="fs-4 section-title text-center">
+                            <i class="bi bi-earbuds me-1"></i>
+                            Fone bluetooth
+                        </h3>
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque laudantium saepe quod. Adipisci accusamus placeat, iure inventore temporibus magnam numquam ad aut fuga autem in ex eveniet nobis recusandae.
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block mb-2 rounded" src="./img hugo acessorios/promocoes/relogio-prom.webp" alt="">
+                        <h3 class="fs-4 section-title text-center ">
+                            <i class="bi bi-smartwatch me-1"></i>
+                            Smartwatch Xiaomi
+                        </h3>
+                        <P>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque laudantium saepe quod. Adipisci accusamus placeat, iure inventore temporibus magnam numquam ad aut fuga autem in ex eveniet nobis recusandae.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="produtos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span>produtos:</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fone-carregador" class="btn-colored fw-bold text-start nav-link active">Fones e carregadores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#caixa-som" class="btn-colored fw-bold text-start nav-link">Caixas de som</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#materiais-escolares" class="btn-colored fw-bold text-start nav-link">Materiais escolares</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brinquedos" class="btn-colored fw-bold text-start nav-link">Brinquedos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="fone-carregador">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/adaptador-duplo.jpg" alt="adaptador duplo">
+                                        <h5 class="mt-2 section-title fw-bold">Adaptador duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/cabo-5metros.webp" alt="cabo de 5 metros">
+                                        <h5 class="mt-2 section-title fw-bold">Cabo de 5 Metros</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/carregador-c.jpg" alt="Carregador do tipo C">
+                                        <h5 class="mt-2 section-title fw-bold">Carregador do tipo C</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/carregador-carr.webp" alt="Carregador para carro">
+                                        <h5 class="mt-2 section-title fw-bold">Carregador para carro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/fone infantil.webp" alt="Fone infantil">
+                                        <h5 class="mt-2 section-title fw-bold">Fone infantil</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/fone-jbl.webp" alt="Fone JBL">
+                                        <h5 class="mt-2 section-title fw-bold">Fone JBL</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/fone-xiaumi.jpg" alt="">
+                                        <h5 class="mt-2 section-title fw-bold">Fone bluetooth da Xiaomi</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/fones-carregador/carregador-turbo.webp" alt="Carregador turbo">
+                                        <h5 class="mt-2 section-title fw-bold">Carregador turbo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tab-pane" id="caixa-som">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/caixas de som/jbl-bombox.jpg" alt="JBL Bombox">
+                                        <h5 class="mt-2 section-title fw-bold">JBL Bombox</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/caixas de som/jbl-flip5.avif" alt="JBL Flip 5">
+                                        <h5 class="mt-2 section-title fw-bold">JBL Flip 5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/caixas de som/jbl-go2.webp" alt="JBL Go 2">
+                                        <h5 class="mt-2 section-title fw-bold">JBL Go 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/caixas de som/jbl-charge4.jpg" alt="JBL Charge 4">
+                                        <h5 class="mt-2 section-title fw-bold">JBL Charge 4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="materiais-escolares">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/materiais ecolares/cadernos.webp" alt="caderno">
+                                        <h5 class="mt-2 section-title fw-bold">Cadernos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/materiais ecolares/canetas.webp" alt="canetas">
+                                        <h5 class="mt-2 section-title fw-bold">Canetas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/materiais ecolares/lapis e borracha.jpg" alt="lapis e borracha">
+                                        <h5 class="mt-2 section-title fw-bold">Lapis e borracha</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/materiais ecolares/mochila-infantil.webp" alt="mochilas infantil">
+                                        <h5 class="mt-2 section-title fw-bold">Mochilas infantil</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/materiais ecolares/mochila.webp" alt="mochilas">
+                                        <h5 class="mt-2 section-title fw-bold">Mochilas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="brinquedos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/brinquedos/bolas.png" alt="bolas">
+                                        <h5 class="mt-2 section-title fw-bold">Bolas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/brinquedos/carros.webp" alt="carros">
+                                        <h5 class="mt-2 section-title fw-bold">Carros</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img hugo acessorios/produtos/brinquedos/bonecas.jpg" alt="bonecas">
+                                        <h5 class="mt-2 section-title fw-bold">Bonecas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold ">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold ">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold ">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold ">Sua mensagem</label>
+                                <textarea id="" class="form-control"></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-instagram ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Enderço
+                            </h3>
+                            <p>
+                                avenida colares Júnior , 29172-823 Serra, ES
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./js/jquery.mask.min.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/messages_pt_BR.min.js"></script>
+        <script>
+            const form = document.getElementById('form')
+
+            form.addEventListener('submit', function(e){
+                e.preventDefault();
+            })
+
+            $('#telefone').mask('(00) 00000-0000', {
+                placeholder: '(__) _____-____'
+            })
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: true
+                    },
+                },
+                messages: {
+                    nome: 'Este Campo é Obrigatorio',
+                    telefone: 'Este Campo é Obrigatorio',
+                    email: 'Este Campo é Obrigatorio',
+                }
+            })
+        </script>
+</body>
+</html>

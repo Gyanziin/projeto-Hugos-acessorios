@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    background-color: rgb(131, 22, 233);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(131, 22, 233);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'ADLaM Display', cursive;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+img {
+    width: 100vw;
+    height: 85vh;
+}
+
+.section-title {
+    font-family: 'ADLaM Display', cursive;
+}
+
+.section-title span,
+.btn-colored {
+    color: rgb(131, 22, 233);
+    font-style: italic;
+}
+
+#sobre-a-loja {
+    background-color: rgba(185, 156, 212, 0.548);
+}
+
+#promocoes h3 {
+    background-color: rgb(131, 22, 233);
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+#promocoes img {
+    height: 300px;
+    width: 300px;
+}
+
+#produtos {
+    background-color: rgba(185, 156, 212, 0.548);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(131, 22, 233);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:rgb(131, 22, 233);
+}
+
+#produtos img {
+    height: 200px;
+    width: 200px;
+}
+
+#produtos h5 {
+    color: rgb(131, 22, 233);
+    text-align: center;
+}
+
+#fale-conosco h3,
+i, 
+label {
+    color: rgb(131, 22, 233);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre-a-loja h2 {
+        margin-top: 7px;
+    }
+
+    #promocoes img {
+        height: 300px;
+        width: 350px;
+    }
+    
+}
